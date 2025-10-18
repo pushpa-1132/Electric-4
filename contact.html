@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Electric ATV Store for questions about our battery-powered ATVs, product inquiries, customer support, and technical assistance. We're here to help!">
+    <meta name="keywords" content="contact electric ATV, ATV customer support, electric quad inquiries, battery powered ATV help">
+    <title>Contact Us | Electric ATV Store - Customer Support & Inquiries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">⚡ Electric ATV</a>
+            <button class="mobile-menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="padding: 80px 20px;">
+        <div class="hero-content container">
+            <h1>Get in Touch</h1>
+            <p>We're here to answer your questions about electric ATVs</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div>
+                    <div class="contact-form">
+                        <h2 style="margin-bottom: 1.5rem; color: var(--secondary-color);">Send Us a Message</h2>
+                        <form id="contactForm" onsubmit="handleSubmit(event)">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required placeholder="What is your inquiry about?">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" required placeholder="Tell us more about your inquiry..."></textarea>
+                            </div>
+                            <button type="submit" class="btn" style="width: 100%; margin-top: 1rem;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>📍 Visit Us</h3>
+                        <p>123 Electric Ave<br>
+                        City, State 12345<br>
+                        United States</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📞 Call Us</h3>
+                        <p><strong>Phone:</strong> +1 (555) 123-4567<br>
+                        <strong>Hours:</strong> Mon-Fri: 9AM-6PM<br>
+                        Saturday: 10AM-4PM<br>
+                        Sunday: Closed</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>✉️ Email Us</h3>
+                        <p><strong>General Inquiries:</strong><br>
+                        info@electricatv.com<br><br>
+                        <strong>Technical Support:</strong><br>
+                        support@electricatv.com<br><br>
+                        <strong>Sales:</strong><br>
+                        sales@electricatv.com</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🤝 Partner Products</h3>
+                        <p>Interested in electric dirt bikes?<br>
+                        Check out our partner:</p>
+                        <a href="https://carzonetoys.com/our-collection/electric-dirt-bikes" class="btn" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 1rem; padding: 10px 20px; font-size: 0.9rem;">Carzone Electric Dirt Bikes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 4rem; text-align: center; padding: 2rem; background: var(--bg-light); border-radius: 15px;">
+                <h2 style="margin-bottom: 1rem; color: var(--secondary-color);">Frequently Asked Questions</h2>
+                <p style="margin-bottom: 2rem;">Before contacting us, you might find answers to common questions below:</p>
+                <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+                    <h3 style="color: var(--secondary-color); margin-top: 1.5rem;">What age range are your electric ATVs suitable for?</h3>
+                    <p>Our 24V models are perfect for kids ages 3-8, while our 36V ATVs are designed for ages 8 and up, including teens and adults.</p>
+
+                    <h3 style="color: var(--secondary-color); margin-top: 1.5rem;">How long does the battery last?</h3>
+                    <p>Battery life varies by model and usage, but typically 1-2 hours of continuous riding. Charging time is approximately 8-12 hours.</p>
+
+                    <h3 style="color: var(--secondary-color); margin-top: 1.5rem;">Do you offer warranties?</h3>
+                    <p>Yes, all our electric ATVs come with manufacturer warranties. Specific coverage details are provided with each product.</p>
+
+                    <h3 style="color: var(--secondary-color); margin-top: 1.5rem;">Can I use these ATVs on public roads?</h3>
+                    <p>These are off-road vehicles designed for private property use. Check your local regulations regarding ATV usage.</p>
+
+                    <h3 style="color: var(--secondary-color); margin-top: 1.5rem;">Do you ship nationwide?</h3>
+                    <p>Yes, we offer shipping throughout the United States. Shipping costs and times vary by location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Electric ATV Store</h3>
+                    <p>Your trusted source for premium battery-powered ATV 4 wheelers, electric quads, and off-road electric vehicles.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="index.html#products">24V Electric ATVs</a></li>
+                        <li><a href="index.html#products">36V Electric Quads</a></li>
+                        <li><a href="index.html#products">Kids Side by Side</a></li>
+                        <li><a href="https://carzonetoys.com/our-collection/electric-dirt-bikes" target="_blank">Electric Dirt Bikes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>📧 info@electricatv.com</li>
+                        <li>📱 +1 (555) 123-4567</li>
+                        <li>📍 123 Electric Ave, City, State 12345</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Electric ATV Store. All rights reserved. | Ride Safe, Ride Electric</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(event) {
+            const nav = document.getElementById('navLinks');
+            const toggle = document.querySelector('.mobile-menu-toggle');
+            if (!nav.contains(event.target) && !toggle.contains(event.target)) {
+                nav.classList.remove('active');
+            }
+        });
+
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert('Thank you for your message! We will get back to you within 24-48 hours.');
+            document.getElementById('contactForm').reset();
+        }
+    </script>
+</body>
+</html>
